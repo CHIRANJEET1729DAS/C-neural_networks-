@@ -27,3 +27,5 @@ Why not? It’s like choosing to cook gourmet meals when instant noodles are on 
 In Conclusion:
 
 Join me on this adventurous journey where we’ll build a neural network that’s as much about the experience as it is about the outcome. Expect laughs, tears, and plenty of debugging. So, grab your keyboards, and let’s build something that’s definitely not just a glorified calculator—it's a neural network, baby! 🎉
+
+![BEAUTIFUL outcome](https://github.com/CHIRANJEET1729DAS/C-neural_networks-/blob/main/Graphical_info/error_plot.png)
