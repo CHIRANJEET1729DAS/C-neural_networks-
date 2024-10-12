@@ -12,12 +12,12 @@ using namespace std;
 
 class Training {
 private:
-    Neural_Networks& neuralNetwork; // Reference to the neural network being trained
-    vector<vector<double>> trainingInputs; // Input data for training
-    vector<vector<double>> trainingTargets; // Target outputs for training
-    double learningRate; // Learning rate for training
-    int epochs; // Number of training epochs
-    vector<double> epochErrors; // Store the average error for each epoch
+    Neural_Networks& neuralNetwork; 
+    vector<vector<double>> trainingInputs; 
+    vector<vector<double>> trainingTargets; 
+    double learningRate; 
+    int epochs; 
+    vector<double> epochErrors; 
 
 public:
     // Constructor to initialize the training parameters
@@ -49,8 +49,7 @@ public:
                 // Backpropagate the error through the network
                 bp.backpropagate(neuralNetwork, trainingTargets[i]); // Corrected to pass two arguments
 
-                // Uncomment if you have clipGradients method
-                // bp.clipGradients(1.0); // Call to clip gradients if implemented
+
             }
 
             // Calculate average error for the epoch
@@ -60,8 +59,7 @@ public:
             // Log the average error for this epoch
             cout << "Epoch " << epoch + 1 << " Error: " << totalError << endl;
 
-            // Optionally adjust learning rate here if needed
-            // adjustLearningRate(epoch);
+
         }
 
         // Write the epoch errors to a file for plotting
