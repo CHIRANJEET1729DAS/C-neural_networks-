@@ -22,7 +22,7 @@ Graphing Glory: Plotting our error over epochs like a heart rate monitor during 
 
 Why C++?
 
-Why not? It’s like choosing to cook gourmet meals when instant noodles are on the table. Sure, it takes longer, but the satisfaction of knowing you actually understand pointers and memory management? Chef's kiss! Plus, who doesn't want to flex their C++ skills and make all the Python devs weep quietly in their code editors?
+Why not? It’s like choosing to cook gourmet meals when instant noodles are on the table. Sure, it takes longer, but the satisfaction of knowing you actually understand pointers and memory management? 
 
 In Conclusion:
 
